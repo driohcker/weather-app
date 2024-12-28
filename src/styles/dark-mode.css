@@ -1,0 +1,53 @@
+/* 深色模式样式 */
+.dark-mode {
+  --text-primary: #ffffff;
+  --text-regular: #e0e0e0;
+  --text-secondary: #909399;
+  
+  --border-color: rgba(255, 255, 255, 0.1);
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode body {
+  background: linear-gradient(120deg, #20232a 0%, #414755 100%);
+  color: var(--text-primary);
+}
+
+/* Element Plus 组件深色模式覆盖 */
+.dark-mode .el-card {
+  background-color: rgba(33, 33, 33, 0.8) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary);
+}
+
+.dark-mode .el-button--default {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+.dark-mode .el-input__inner {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-primary);
+}
+
+.dark-mode .el-dialog {
+  background-color: var(--background-dark);
+}
+
+.dark-mode .el-dialog__title {
+  color: var(--text-primary);
+}
+
+.dark-mode .el-message-box {
+  background-color: var(--background-dark);
+  border-color: var(--border-color);
+}
+
+.dark-mode .el-message-box__title {
+  color: var(--text-primary);
+}
+
+.dark-mode .el-message-box__content {
+  color: var(--text-regular);
+}

@@ -1,5 +1,5 @@
 # weather-app
-
+使用vue3+element plus制作的简单的天气查询应用
 ## Project setup
 ```
 npm install

@@ -4,8 +4,7 @@
 
 一个基于 Vue 3 和 Element Plus 的简单天气查询应用，提供实时天气信息和友好的用户界面。
 
-![1](https://github.com/user-attachments/assets/3656e19c-c769-4150-a4a4-131b4e1f5bc1)
-
+![2](https://github.com/user-attachments/assets/8995ffd2-af88-4180-aae8-a127e444cda8)
 
 
 ---
@@ -46,7 +45,8 @@ npm install
 
 ### 3.添加自己的密钥和天气提供商网址
 
-![1](https://github.com/user-attachments/assets/7e8fd004-7930-4b34-a08a-246ba3170f2a)
+![1](https://github.com/user-attachments/assets/04187b67-ddfd-46dd-9537-422a65c03e08)
+
 
 
 ### 4. 运行启动
